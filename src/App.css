@@ -11,6 +11,7 @@
 
 html {
   font-size: 62.5%;
+  background-color: #d3d3d3;
 }
 
 .App {
@@ -23,7 +24,7 @@ h1 {
   font-size: 8rem;
   letter-spacing: 0.1rem;
   font-style: italic;
-  color: #40b48e;
+  color: #08241b;
   text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
   text-transform: uppercase;
   margin: 4rem 0;
@@ -78,8 +79,9 @@ h1 {
 .search-form input[type='submit'] {
   width: 25%;
   text-transform: uppercase;
-  background-color: #40b48e;
+  background-color: #08241b;
   color: #fff;
+  cursor: pointer;
 }
 
 .recipes {
@@ -124,17 +126,18 @@ h1 {
 
 .recipe a {
   font-size: 1.8rem;
-  color: #40b48e;
+  color: #08241b;
 }
 
 .recipe button {
   font-size: 2rem;
   text-transform: uppercase;
   color: #fff;
-  background-color: #40b48e;
+  background-color: #08241b;
   border: none;
   border-radius: 0.5rem;
   height: 3rem;
+  cursor: pointer;
 }
 
 .ingredient-list {
@@ -154,6 +157,6 @@ h1 {
 }
 
 .ingredient-weight {
-  color: #40b48e;
+  color: #08241b;
   font-size: 1.3rem;
 }
